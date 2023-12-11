@@ -1,0 +1,65 @@
+
+#menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    background-color: black;
+    z-index: 100;
+    color: white;
+}
+
+.division {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.espacio-logo {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.espacio-logo h1 {
+    font-family: serif;    
+    font-size: 30px;
+    color: white;
+}
+
+.espacio-logo img {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.enlace {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+  
+}
+
+.search input {
+    height: 28px;
+    border-radius: 10px;
+}
+
+.search button {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(249, 141, 179);
+    color: white;
+    border-radius: 10px;
+}
+
+
